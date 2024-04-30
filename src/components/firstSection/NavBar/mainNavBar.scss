@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 172px;
+    height: 69.93px;
+    top: 41.99px;
+    left: 356px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+li {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.menu li {
+    margin-left: 47px;
+}
+
+.reg-menu {
+    margin-left: 1084;
+    width: 240px;
+    height: 33.96px;
+    top: 59.97px;
+    left: 1324px;
+    border: none;
+}
+
+.Sign-In {
+    margin-left: 1084;
+
+    width: 111px;
+    height: 33.96px;
+    top: 59.97px;
+    left: 1324px;
+    font-family: Gilroy;
+    font-size: 22.84px;
+    font-weight: 600;
+    text-align: left;
+    background: #EB3738;
+    border-radius: 16px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+Sign-Up {
+    font-family: Gilroy;
+    font-size: 16.61px;
+    font-weight: 600;
+    line-height: 20.35px;
+    text-align: left;
+    width: 101px;
+    height: 19.98px;
+    top: 66.96px;
+    left: 1463px;
+    border: none;
+    cursor: pointer;
+}

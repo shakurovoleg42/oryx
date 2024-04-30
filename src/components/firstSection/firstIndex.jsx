@@ -1,11 +1,12 @@
 import { MainNavBar } from "./NavBar/MainNavBar";
 import { AboutOryx } from "./About/AboutOryx";
+import './firstIndex.scss';
 
 export const FirstIndex = () => {
     return (
-        <>
-        <MainNavBar/>
-        <AboutOryx/>
-        </>
+        <div className="section">
+            <MainNavBar/>
+            <AboutOryx/>
+        </div>
     )
 }
