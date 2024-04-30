@@ -1,8 +1,6 @@
 
-function mainNavBar() {
+export const mainNavBar = () => {
     <>
         
     </>
 }
-
-export default mainNavBar;

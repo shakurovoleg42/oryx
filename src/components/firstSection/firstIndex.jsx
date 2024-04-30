@@ -1,10 +1,9 @@
-import mainNavBar from "./NavBar/mainNavBar";
-import aboutOryx from "./About/aboutOryx";
+// import mainNavBar from "./NavBar/mainNavBar";
+// import aboutOryx from "./About/aboutOryx";
 
-function FirstIndex() {
+export const FirstIndex = () => {
     <section>
         <mainNavBar/>
         <aboutOryx/>
-    </section>
-    
+    </section>   
 }
