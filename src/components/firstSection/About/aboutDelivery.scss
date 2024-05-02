@@ -1,6 +1,8 @@
+a {
+    text-decoration: none;
+}
 
 .about {
-    font-family: Gilroy;
     display: flex;
     margin-top: 33px;
     background-image: url("../../../assets/img/background/airplane_hand_background.png");
@@ -17,7 +19,7 @@
     margin-left: 385px;
     margin-right: 40px;
     width: 555px;
-    height: 154px;
+    height: 153.84px;
     top: 213px;
     left: 385px;
     margin-top: 90px;
@@ -50,7 +52,6 @@
     font-weight: 400;
     line-height: 32px;
     text-align: left;
-    font-family: Gilroy;
 }
 
 .airplane {
@@ -59,4 +60,27 @@
     margin-top: 21px;
     margin-right: 220px;
     margin-bottom: 3px;
+}
+
+.go-registration {
+    width: 183px;
+    height: 60.94px;
+    top: 540.44px;
+    left: 390px;
+    background: #EB3738;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    margin-right: 421px;
+    margin-bottom: 105px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
