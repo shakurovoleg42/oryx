@@ -1,0 +1,61 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  margin-top: 148px;
+  width: 1199px;
+  height: 579.5px;
+  margin-left: 554px;
+  margin-right: 556px;
+}
+  
+.order .how-order h2 {
+  margin: 0;
+  width: 810px;
+  height: 119.98px;
+  font-family: Gilroy;
+  font-size: 48.56px;
+  font-weight: 700;
+  line-height: 60.12px;
+  text-align: center;
+  position: relative;
+}
+  
+.how-to-get::after {
+  margin-left: 250px;
+  margin-right: 250px;
+  display: flex;
+  content: "";
+  position: absolute;
+  position: center;
+  left: 0;
+  right: 0;
+  width: 311px;
+  height: 8px;
+  background-color: #E84438;
+}
+
+.get-now {
+  display: flex;
+}
+
+.get-now a{
+  display: inline-block;
+}
+  
+.get-now-btn {
+  margin-top: 372.12px;
+  margin-left: 250px;
+  margin-right: 259px;
+  width: 331.06px;
+  height: 76.39px;
+  border-radius: 8.27px;
+  border: none;
+  background-color: #E84438;
+  font-family: Gilroy;
+  font-size: 30.62px;
+  font-weight: 400;
+  line-height: 36.74px;
+  cursor: pointer;
+  text-align: center;
+  color:#FFFFFF;
+}
