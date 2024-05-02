@@ -1,6 +1,9 @@
 .header {
+    position: relative;
+    margin-top: 30px;
     display: flex;
     align-items: center;
+    margin-left: 240px;
 }
 
 .menu {
@@ -24,7 +27,7 @@
 }
 
 li {
-    font-family: Gilroy;
+    font-family: Questrial;
     font-size: 16px;
     font-weight: 600;
     text-align: left;
@@ -37,7 +40,7 @@ li {
   
 .menu li.active,
 .menu li:hover {
-    color: red;
+    color: #EB3738;
 }
   
 .menu li::after {
@@ -47,7 +50,7 @@ li {
     bottom: -3px;
     width: 0%;
     height: 2px;
-    background-color: red;
+    background-color: #EB3738;
     opacity: 0;
     transition: width 0.3s, opacity 0.3s;
 }
@@ -78,7 +81,7 @@ li {
 }
   
 .p-Sign-In {
-    font-family: Gilroy;
+    font-family: Questrial;
     color: #FFFFFF;
     font-size: 22.84px;
     font-weight: 600;
@@ -101,7 +104,7 @@ li {
 }
   
 .p-Sign-Up {
-    font-family: Gilroy;
+    font-family: Questrial;
     font-size: 16.61px;
     font-weight: 600;
     color: #000000;

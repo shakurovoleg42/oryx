@@ -10,9 +10,8 @@ export const MainNavBar = () => {
     const handleClick = (itemIndex) => {
       setActiveItem(itemIndex);
     };
-    
+
     return (
-        <>
             <div className="header">
                 <img className="logo" src="/src/assets/img/logo/main_logo.png" alt="logo" />
                 <ul className="menu">
@@ -60,6 +59,5 @@ export const MainNavBar = () => {
                     </button>
                 </div>
             </div>
-        </>
     )
 }
