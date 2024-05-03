@@ -16,7 +16,7 @@ export const Order = () => {
               <p className="info-paragraph">Получите адрес для доставки посылок в США</p>
             </div>
           </div>
-          <div className="clue-item">
+          <div className="clue-item" style={{marginLeft: "178px", marginRight: "177px"}}>
             <img
               src="/src/assets/img/icons/go_buy.png"
               alt="icon"
