@@ -2,15 +2,19 @@
   display: flex;
   flex-direction: column;
   margin-top: 148px;
-  width: 1199px;
-  height: 579.5px;
-  margin-left: 554px;
-  margin-right: 556px;
+  width: 100%; /* Изменено на 100% */
+  max-width: 1199px; /* Добавлено */
+  margin-left: auto; /* Изменено на auto */
+  margin-right: auto; /* Изменено на auto */
+  padding-left: 20px; /* Добавлено */
+  padding-right: 20px; /* Добавлено */
 }
-  
-.order .how-order h2 {
-  margin: 0;
-  width: 810px;
+
+.order .how-to-get {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; /* Изменено на 100% */
+  max-width: 810px; /* Добавлено */
   height: 119.98px;
   font-family: Gilroy;
   font-size: 48.56px;
@@ -19,33 +23,88 @@
   text-align: center;
   position: relative;
 }
-  
+
 .how-to-get::after {
-  margin-left: 250px;
-  margin-right: 250px;
-  display: flex;
-  content: "";
-  position: absolute;
-  position: center;
-  left: 0;
-  right: 0;
+  content: ""; /* Добавлено */
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* Изменено на block */
   width: 311px;
   height: 8px;
   background-color: #E84438;
 }
 
-.get-now {
+.clue {
   display: flex;
+  align-items: center;
+  margin-top: 71px;
+  flex-direction: row;
+  flex-wrap: wrap; /* Добавлено */
+  justify-content: center; /* Добавлено */
 }
 
-.get-now a{
-  display: inline-block;
+.clue .clue-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px; /* Добавлено */
 }
-  
+
+.clue .clue-item-img {
+  width: 73px;
+  height: 73px;
+  border-style: groove;
+  border-color: #000000;
+  border-radius: 15px;
+  padding: 15px;
+  border-width: 1.5px;
+}
+
+.clue .about-paragraph {
+  margin-top: 20px;
+  text-align: center;
+  display: flex; /* Добавлено */
+  flex-direction: column; /* Добавлено */
+  align-items: center; /* Добавлено */
+  justify-content: center; /* Добавлено */
+}
+
+.clue .name-paragraph {
+  width: 241px;
+  height: 32px;
+  font-family: Gilroy;
+  font-size: 25.77px;
+  margin-top: 10px;
+  font-weight: 700;
+  line-height: 31.9px;
+  text-align: center;
+  color: #000000;
+}
+
+.clue .info-paragraph {
+  width: 280px;
+  height: 68px;
+  font-family: Ubuntu;
+  font-size: 16.84px;
+  margin-top: 10px; /* Изменено на 10px */
+  font-weight: 400;
+  line-height: 33.68px;
+  text-align: center;
+  color: #646464;
+}
+
+.get-now {
+  display: flex;
+  justify-content: center;
+  margin-top: 72.12px;
+}
+
+.get-now a {
+  display: inline-block;
+  margin-top: 0;
+}
+
 .get-now-btn {
-  margin-top: 372.12px;
-  margin-left: 250px;
-  margin-right: 259px;
   width: 331.06px;
   height: 76.39px;
   border-radius: 8.27px;
@@ -57,5 +116,5 @@
   line-height: 36.74px;
   cursor: pointer;
   text-align: center;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
