@@ -1,3 +1,5 @@
+import "./order.scss"
+
 export const Order = () => {
     return (
       <div className="order">
