@@ -2,9 +2,9 @@
     margin-top: 60.5px;
     // display: flex;
     align-items: center;
-    width: 1369px;
+    width:auto;
     height: 446px;
-    margin-left: 292px;
+    margin-left: 259px;
     margin-right: 259px;
 }
 
@@ -24,5 +24,23 @@
 
 .popular .carousel_section {
     display: flex;
-    margin-left: 50px;
+    align-items: center;
+}
+
+.popular .see_more {
+    width: 168px;
+    height: 50px;
+    margin-top: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #E84438;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 21.39px;
+    font-weight: 700;
+    line-height: 26.49px;
 }

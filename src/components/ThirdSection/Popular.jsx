@@ -13,23 +13,53 @@ export const Popular = () => {
                 <p>Популярные магазины</p>
             </div>
             <div className="carousel_section">
-                <KeyboardArrowLeftIcon />
-                {itemData.map((item, index) => (
-                    <img
-                        className=''
-                        key={index}
-                        src={item.img}
-                        style={{
-                            width: `${item.width}`,
-                            height: `${item.height}`,
-                            marginLeft: `${item.ml}`,
-                            marginRight: `${item.mr}`,
-                        }}
-                        alt="popular_shops"
-                    />
-                ))}
-                <KeyboardArrowRightIcon />
+                <KeyboardArrowLeftIcon
+                    sx={{
+                        fontSize: "32px",
+                        //добавить backgroundColor: "#EB3738" и color: "#FFFFFF" на активную кнопку 
+                        borderRadius: '50%',
+                        padding: '14px',
+                        cursor: "pointer",
+                        '&:hover': {
+                            transition: "0.5s",
+                            backgroundColor: "#EB3738",
+                            color: "#FFFFFF",
+                        },
+                        
+                    }}
+                />
+                    {itemData.map((item, index) => (
+                            <img
+                            className=""
+                            key={index}
+                            src={item.img}
+                            style={{
+                                width: `${item.width}`,
+                                height: `${item.height}`,
+                                marginLeft: `${item.ml}`,
+                                marginRight: `${item.mr}`,
+                            }}
+                            alt="popular_shops"
+                        />
+                    ))}
+                <KeyboardArrowRightIcon
+                    sx={{
+                        //добавить backgroundColor: "#EB3738" и color: "#FFFFFF" на активную кнопку
+                        fontSize: "32px",
+                        borderRadius: '50%',
+                        padding: '14px',
+                        cursor: "pointer",
+                        '&:hover': {
+                            transition: "0.5s",
+                            backgroundColor: "#EB3738",
+                            color: "#FFFFFF",
+                        },
+                    }}
+                />
             </div>
+            <a href="#">
+                <button className="see_more">Смотреть все</button>
+            </a>
         </div>
     );
 }
@@ -39,7 +69,7 @@ const itemData = [
         img: '/src/assets/img/slider-icons/hilfiger.png',
         width: "168px",
         height: "168px",
-        ml: "64px",
+        ml: "32px",
         mr: "40px"
     },
     {
@@ -75,6 +105,6 @@ const itemData = [
         width: "168px",
         height: "168px",
         ml: "6px",
-        mr: "97px"
+        mr: "32px"
     },
 ];
