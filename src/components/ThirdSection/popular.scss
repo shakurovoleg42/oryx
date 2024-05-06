@@ -1,5 +1,6 @@
 .popular {
-    display: flex;
+    margin-top: 60.5px;
+    // display: flex;
     align-items: center;
     width: 1369px;
     height: 446px;
@@ -7,8 +8,21 @@
     margin-right: 259px;
 }
 
-.container {
-    width: 1208px;
-    height: 446px;
-    
+.popular .popular_shops {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 810px;
+    height: 119.98px;
+    font-size: 48.56px;
+    font-weight: 700;
+    size: 50px;
+    line-height: 60.12px;
+    text-align: center;
+    color: #E84438;
+}
+
+.popular .carousel_section {
+    display: flex;
+    margin-left: 50px;
 }

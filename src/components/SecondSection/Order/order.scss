@@ -2,19 +2,19 @@
   display: flex;
   flex-direction: column;
   margin-top: 148px;
-  width: 100%; /* Изменено на 100% */
-  max-width: 1199px; /* Добавлено */
-  margin-left: auto; /* Изменено на auto */
-  margin-right: auto; /* Изменено на auto */
-  padding-left: 20px; /* Добавлено */
-  padding-right: 20px; /* Добавлено */
+  width: 100%;
+  max-width: 1199px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .order .how-to-get {
   margin-left: auto;
   margin-right: auto;
-  width: 100%; /* Изменено на 100% */
-  max-width: 810px; /* Добавлено */
+  width: 100%;
+  max-width: 810px;
   height: 119.98px;
   font-family: Gilroy;
   font-size: 48.56px;
@@ -25,10 +25,10 @@
 }
 
 .how-to-get::after {
-  content: ""; /* Добавлено */
+  content: "";
   margin-left: auto;
   margin-right: auto;
-  display: block; /* Изменено на block */
+  display: block;
   width: 311px;
   height: 8px;
   background-color: #E84438;
@@ -39,15 +39,15 @@
   align-items: center;
   margin-top: 71px;
   flex-direction: row;
-  flex-wrap: wrap; /* Добавлено */
-  justify-content: center; /* Добавлено */
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .clue .clue-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px; /* Добавлено */
+  margin-bottom: 40px;
 }
 
 .clue .clue-item-img {
@@ -63,10 +63,10 @@
 .clue .about-paragraph {
   margin-top: 20px;
   text-align: center;
-  display: flex; /* Добавлено */
-  flex-direction: column; /* Добавлено */
-  align-items: center; /* Добавлено */
-  justify-content: center; /* Добавлено */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .clue .name-paragraph {
@@ -86,7 +86,7 @@
   height: 68px;
   font-family: Ubuntu;
   font-size: 16.84px;
-  margin-top: 10px; /* Изменено на 10px */
+  margin-top: 10px;
   font-weight: 400;
   line-height: 33.68px;
   text-align: center;

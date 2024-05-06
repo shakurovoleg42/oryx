@@ -1,4 +1,4 @@
-import { MainNavBar } from "./NavBar/mainNavBar";
+import { MainNavBar } from "./NavBar/MainNavBar";
 import { AboutDelivery } from "./About/AboutDelivery";
 import './firstIndex.scss';
 

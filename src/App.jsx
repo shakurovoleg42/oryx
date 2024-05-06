@@ -1,4 +1,4 @@
-import { FirstIndex } from "./components/firstSection/firstIndex";
+import { FirstIndex } from "./components/FirstSection/FirstIndex";
 import { Order } from "./components/SecondSection/Order/Order";
 import { Popular } from "./components/ThirdSection/Popular";
 
