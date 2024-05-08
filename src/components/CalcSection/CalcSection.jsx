@@ -6,7 +6,7 @@ export const CalcSection = () => {
     return (
         <div className="container">
             <div className="calc_container">
-                    
+                
             </div>
         </div>
     )

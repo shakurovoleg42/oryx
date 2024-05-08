@@ -42,7 +42,7 @@ export const Order = () => {
           </div>
         </div>
         <div className="get-now">
-          <a href="#">
+          <a href="#!">
             <button className="get-now-btn">Получи сейчас</button>
           </a>
         </div>

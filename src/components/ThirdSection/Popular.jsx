@@ -57,9 +57,12 @@ export const Popular = () => {
                     }}
                 />
             </div>
-            <a href="#">
-                <button className="see_more">Смотреть все</button>
-            </a>
+            <div className='see_more_more'>
+                <a href="#!">
+                    <button className="see_more">Смотреть все</button>
+                </a>
+            </div>
+            
         </div>
     );
 }

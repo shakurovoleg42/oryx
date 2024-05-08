@@ -1,9 +1,14 @@
 .container {
-    width: 1964px;
+    width: 100%;
     height: 717px;
 }
 
 .calc_container {
+    display: flex;
     background-image: url('../../assets/img/background/airplane_hand_background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
     height: 591px;
 }
