@@ -40,7 +40,6 @@ export const CalcSection = () => {
                             marginLeft: '208px',
                             marginBottom: '44px',
                             marginTop: '185px',
-                            marginRight: '388px',
                             borderRadius: '0px 181px 0px 0px',
                         }}
                     />
@@ -51,8 +50,8 @@ export const CalcSection = () => {
                             position: 'absolute',
                             width: '480px',
                             height: '598px',
-                            top: '-20%',
-                            left: '10%',
+                            top: '-21%',
+                            left: '15%',
                             zIndex: 1,
                         }}
                     />
