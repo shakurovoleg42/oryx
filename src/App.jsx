@@ -8,11 +8,11 @@ function App() {
   
   return (
     <>
-      <FirstIndex/>
-      <Order/>
-      <Popular/>
-      <CalcSection/>
-      <Faq/>
+      <FirstIndex />
+      <Order />
+      <Popular />
+      <CalcSection />
+      <Faq />
     </>
   )
 }
