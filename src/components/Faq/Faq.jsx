@@ -23,7 +23,6 @@ export const Faq = () => {
                 activeKey={activeKey}
                 onSelect={handlePanelToggle}
                 style={{
-                    // marginLeft: "440px",
                     width: "997px",
                     margin: "0 auto",
                     textAlign: "left",
