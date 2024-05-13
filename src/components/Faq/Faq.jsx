@@ -19,6 +19,9 @@ export const Faq = () => {
     return (
         <div className="faq_section">
             <p className="faq_title">Часто задаваемые вопросы</p>
+            <a href="#!" className="whatsapp_icon">
+              <img src="/src/assets/img/elements/call.svg.png" alt="" />
+            </a>
             <Accordion
                 activeKey={activeKey}
                 onSelect={handlePanelToggle}

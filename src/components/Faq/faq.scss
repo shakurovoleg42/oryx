@@ -13,7 +13,11 @@
     text-align: center;
 }
 
-:root,
+.whatsapp_icon {
+  position: absolute;
+  z-index: 1;
+}
+
 .rs-theme-light {
   --rs-gray-0: #fff;
   --rs-gray-50: #f7f7fa;
