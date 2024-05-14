@@ -8,13 +8,15 @@
 .faq_title {
     font-family: Similar; //Должен быть Inter но он платный
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 72.61px;
     text-align: center;
 }
 
 .whatsapp_icon {
   position: absolute;
+  // left: 30%;
+  right: 15%;
   z-index: 1;
 }
 
