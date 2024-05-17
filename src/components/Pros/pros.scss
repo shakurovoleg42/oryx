@@ -1,0 +1,31 @@
+.pros_container {
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    height: 301px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url('../../assets/img/background/airplane_hand_background.png');
+    background-repeat: repeat;
+    background-position: center;
+}
+  
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+.text-container {
+    text-align: left;
+}

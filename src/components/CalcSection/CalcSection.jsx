@@ -34,20 +34,20 @@ export const CalcSection = () => {
                             {/* страна */}
                             <select className="select_country_select" name="" id="" placeholder="213123">
                                 <option
-                                value=""
-                                disabled
-                                selected style={{
-                                    width: "164px",
-                                    height: "35.98px",
-                                    fontSize: "14.49px",
-                                    fontWeight: "400",
-                                    lineHeight: "25.78px",
-                                    textAlign: "center",
-                                    color: "#151515"
-                                }}
-                            >
-                                Выберите страну
-                            </option>
+                                    value=""
+                                    disabled
+                                    selected style={{
+                                        width: "164px",
+                                        height: "35.98px",
+                                        fontSize: "14.49px",
+                                        fontWeight: "400",
+                                        lineHeight: "25.78px",
+                                        textAlign: "center",
+                                        color: "#151515"
+                                    }}
+                                >
+                                    Выберите страну
+                                </option>
                                 <option value="UK" style={{border: "none"}}>Великобритания</option>
                                 <option value="USA" style={{border: "none"}}>США</option>
                                 <option value="Georgia" style={{border: "none"}}>Грузия</option>
