@@ -4,6 +4,7 @@ import { Popular } from "./components/ThirdSection/Popular";
 import { CalcSection } from "./components/CalcSection/CalcSection";
 import { Faq } from "./components/Faq/Faq";
 import { Pros } from "./components/Pros/Pros";
+import { About } from "./components/AboutCompany/About";
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
       <Popular />
       <CalcSection />
       <Faq />
-      < Pros/>
+      <Pros />
+      <About />
     </>
   )
 }
