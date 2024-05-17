@@ -19,7 +19,7 @@ export const Faq = () => {
     return (
         <div className="faq_section">
             <p className="faq_title">Часто задаваемые вопросы</p>
-            <a href="#!" className="whatsapp_icon">
+            <a href="https://t.me/Sellkon" className="whatsapp_icon">
               <img src="/src/assets/img/elements/call.svg.png" alt="" />
             </a>
             <Accordion

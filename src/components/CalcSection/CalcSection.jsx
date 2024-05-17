@@ -32,7 +32,7 @@ export const CalcSection = () => {
                     <div className="price_calc_delivery_section">
                         <div className="select_country">
                             {/* страна */}
-                            <select name="" id="" placeholder="213123">
+                            <select className="select_country_select" name="" id="" placeholder="213123">
                                 <option
                                 value=""
                                 disabled
