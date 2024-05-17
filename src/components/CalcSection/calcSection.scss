@@ -9,6 +9,11 @@
     background-repeat: repeat;
     background-position: center;
 }
+
+.price_calc_delivery_section {
+    display: flex;
+    align-items: center;
+}
     
 .calc_container {
     display: flex;
@@ -33,12 +38,44 @@
 
 .calc_price {
     width: 65px;
-    height: 25px;
     font-size: 20px;
     font-weight: 700;
     line-height: 24.76px;
     text-align: left;
 }
+
+.select_country select {
+    width: 200.38px;
+    height: 65px;
+    border-radius: 75.2px;
+    opacity: 0px;
+    border: none;
+    box-shadow: #00000040 25%;
+    text-align: center;
+    font-size: 18px;
+    background-color: #FFFFFF;
+
+}
+
+.price_input {
+    width: 142.88px;
+    height: 65px;
+    border-radius: 75.2px;
+    box-shadow: #00000040 25%;
+    border: none;
+    font-size: 21.49px;
+    font-weight: 400;
+    line-height: 25.78px;
+    text-align: center;
+    background-color: #FFFFFF;
+
+}
+
+
+// select option:first-child {
+//     color: #999; /* Установить цвет первой опции в серый */
+//     font-style: italic; /* Установить курсивный стиль первой опции */
+//   }
 
 .calc_time_delivery {
     width: 479px;
