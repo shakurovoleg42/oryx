@@ -5,6 +5,7 @@ import { CalcSection } from "./components/CalcSection/CalcSection";
 import { Faq } from "./components/Faq/Faq";
 import { Pros } from "./components/Pros/Pros";
 import { About } from "./components/AboutCompany/About";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
       <Faq />
       <Pros />
       <About />
+      <Footer />
     </>
   )
 }
