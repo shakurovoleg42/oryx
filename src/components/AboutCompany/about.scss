@@ -1,10 +1,67 @@
 .about_company {
     display: flex;
-    margin-top: 30px;
-    width: 100%;
+    margin-top: 50px;
+    width: auto;
     height: 352px;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
+.title_text_section {
+    width: 397.96px;
+    height: 65px;
+}
+
+.title_section {
+    width: 397.96px;
+    height: 65px;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 53.95px;
+    font-weight: 700;
+    line-height: 65.29px;
+    text-align: left;
+    color: #000000;
+}
+
+.text_section {
+    width: 751px;
+    height: 169px;
+}
+
+.text {
+    width: 751px;
+    // font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33.75px;
+    letter-spacing: 0.17454545199871063px;
+    text-align: left;
+    color: #000000;
+}
+
+.know_more {
+    width: 240px;
+    height: 39px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    background-color: #E84438;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.84px;
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.know_more .arrowtomore {
+    margin-left: 12px;
+}

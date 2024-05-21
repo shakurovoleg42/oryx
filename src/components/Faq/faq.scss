@@ -214,10 +214,6 @@ tbody.rs-panel .rs-anim-collapse.rs-anim-in {
 .rs-panel-btn:hover,
 .rs-panel-btn:focus,
 .rs-panel-btn:active {
-  /* background-color: #e5e5ea; */
-  /* background-color: var(--rs-btn-subtle-hover-bg); */
-  /* color: #575757;
-  color: var(--rs-btn-subtle-hover-text); */
   outline: transparent solid 2px;
 }
 .rs-panel-btn-icon {
@@ -261,7 +257,6 @@ tbody.rs-panel .rs-anim-collapse.rs-anim-in {
 }
 .rs-panel-collapsible > .rs-panel-header > .rs-icon {
   color: red;
-//   color: var(--rs-text-secondary);#8e8e93;
   position: absolute;
   top: 24px;
   right: 20px;
@@ -270,5 +265,3 @@ tbody.rs-panel .rs-anim-collapse.rs-anim-in {
   transition: transform 0.3s linear;
   transition: transform 0.3s linear, -webkit-transform 0.3s linear;
 }
-
-/*# sourceMappingURL=index.css.map */
