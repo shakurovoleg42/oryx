@@ -1,0 +1,34 @@
+.form-control1 {
+    display: flex;
+    justify-content: row;
+    width: 429.49px;
+    height: 39.67px;
+    border-radius: 22px;
+    border: none;
+}
+
+.form-control1::placeholder {
+    width: 37.07px;
+    height: 17.25px;
+    font-size: 16.94px;
+    font-weight: 400;
+    line-height: 21.71px;
+    // text-align: left;
+    margin-left: 20px;
+}
+
+.form-control2 {
+    width: 348.69px;
+    height: 39.67px;
+    border-radius: 22px;
+    border: none;
+}
+
+.form-control2::placeholder {
+    width: 231.11px;
+    height: 17.25px;
+    font-size: 16.94px;
+    font-weight: 400;
+    line-height: 21.71px;
+    text-align: left;
+}

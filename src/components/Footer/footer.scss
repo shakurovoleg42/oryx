@@ -9,12 +9,21 @@
 }
 
 .footer_top {
-    display: flex;
     width: auto;
-    height: 264.77px;
-    justify-content: row;
+    height: 267px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-top: 14px;
+    position: relative;
 }
+
+.main_footer_wrapper {
+    position: absolute;
+    left: 0;
+    margin-top: 158px;
+}
+
 
 .telephones_numbers {
     margin-top: 48px;
@@ -23,7 +32,7 @@
 
 .tel_number {
     display: flex;
-    margin: 0;
+    margin: 1px;
     color:#D6D6D6;
     text-align: center;
     text-decoration: none;
