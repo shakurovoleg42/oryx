@@ -3,17 +3,17 @@ a {
 }
 
 .about {
+    width: 100%; /* Ширина равна ширине видимой области экрана */
     display: flex;
     margin-top: 33px;
     background-image: url("../../../assets/img/background/airplane_hand_background.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: repeat;
     background-size: cover;
     height: 540px;
-  }
+    justify-content: center;
+}
 
 .bethefaster {
-    margin-left: 385px;
     margin-right: 40px;
     width: 555px;
     height: 153.84px;
