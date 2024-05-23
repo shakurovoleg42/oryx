@@ -36,13 +36,11 @@
 .clue {
   background-image: url('../../../assets/img/elements/rectangle.png');
   background-repeat: no-repeat;
-  background-position: center top; /* Центрировать по горизонтали и оставить по вертикали вверху */
-  // background-size: cover; /* Масштабировать фоновое изображение, чтобы оно полностью покрывало контейнер */
+  background-position: center top;
   display: flex;
   align-items: center;
   margin-top: 71px;
   flex-direction: row;
-  // flex-wrap: wrap;
   justify-content: center;
   position: relative;
 }
