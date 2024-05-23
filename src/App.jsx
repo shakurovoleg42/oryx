@@ -1,26 +1,18 @@
-import { FirstIndex } from "./components/FirstSection/FirstIndex";
-import { Order } from "./components/SecondSection/Order/Order";
-import { Popular } from "./components/ThirdSection/Popular";
-import { CalcSection } from "./components/CalcSection/CalcSection";
-import { Faq } from "./components/Faq/Faq";
-import { Pros } from "./components/Pros/Pros";
-import { About } from "./components/AboutCompany/About";
-import { Footer } from "./components/Footer/Footer";
+// App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Main } from './Pages/Main';
+import { About } from './Pages/About';
 
 function App() {
-  
   return (
-    <>
-      <FirstIndex />
-      <Order />
-      <Popular />
-      <CalcSection />
-      <Faq />
-      <Pros />
-      <About />
-      <Footer />
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

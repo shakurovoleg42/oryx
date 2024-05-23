@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./about.scss";
 
 export const About = () => {
@@ -14,12 +15,12 @@ export const About = () => {
                             ORYX – это надежный мейлфорвардер, имеющий собственный автоматизированный склад в безналоговом штате Америки. Покупка и доставка из США любых товаров – наша основная деятельность. Мы сотрудничаем с лучшими перевозчиками долго и плодотворно благодаря этому готовы предложить доступную стоимость доставки.
                         </p>
                     </div>
-                    <a href="#!">
+                    <Link to="/about">
                         <button className="know_more">
                             Узнать больше
                             <img className="arrowtomore" src="/src/assets/img/elements/arrowtomore.png" alt="arrowtomore"/>
                         </button>
-                    </a>
+                    </Link>
             </div>
                 <img className="big_car" src="/src/assets/img/images/big_car.png" alt="big_car" style={{width: "445px", height: "325px"}}/>
         </div>

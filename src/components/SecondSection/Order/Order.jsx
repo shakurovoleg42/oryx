@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./order.scss"
 
 export const Order = () => {
@@ -42,9 +43,9 @@ export const Order = () => {
             </div>
           </div>
         <div className="get-now">
-          <a href="#!">
+          <Link to="#!">
             <button className="get-now-btn">Получи сейчас</button>
-          </a>
+          </Link>
         </div>
       </div>
     );

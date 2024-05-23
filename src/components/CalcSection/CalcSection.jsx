@@ -14,13 +14,9 @@ export const CalcSection = () => {
         price = weight * 13;
     }
 
-    console.log("CalcSection is working");
-
     const handleWeightChange = (event) => {
         setWeight(event.target.value);
     };
-
-    console.log("CalcSection is working");
 
     return (
         <div className="container">

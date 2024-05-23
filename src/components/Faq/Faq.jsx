@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Accordion } from 'rsuite';
 import './faq.scss';
+import { Link } from 'react-router-dom';
 
 export const Faq = () => {
     const [activeKey, setActiveKey] = useState(null);
@@ -17,9 +18,9 @@ export const Faq = () => {
     return (
         <div className="faq_section">
             <div className="faq_title">Часто задаваемые вопросы</div>
-            <a href="https://t.me/Sellkon" className="whatsapp_icon">
+            <Link to="https://t.me/Sellkon" className="whatsapp_icon">
                 <img src="/src/assets/img/elements/call.svg.png" alt="WhatsApp Icon" />
-            </a>
+            </Link>
             <Accordion
                 activeKey={activeKey}
                 onSelect={handlePanelToggle}

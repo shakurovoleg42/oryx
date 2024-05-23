@@ -2,9 +2,9 @@
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import "./popular.scss";
+import { Link } from 'react-router-dom';
 
 export const Popular = () => {
-    console.log("popular is working");
 
 
     return (
@@ -58,9 +58,9 @@ export const Popular = () => {
                 />
             </div>
             <div className='see_more_more'>
-                <a href="#!">
+                <Link to="#!">
                     <button className="see_more">Смотреть все</button>
-                </a>
+                </Link>
             </div>
             
         </div>
