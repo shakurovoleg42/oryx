@@ -31,7 +31,7 @@ export const Order = () => {
           </div>
           <div className="clue-item">
             <img
-              src="/src/assets/img/icons/go_buy.png"
+              src="/src/assets/img/icons/get.png"
               alt="icon"
               className="clue-item-img"
             />
