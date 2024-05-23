@@ -18,4 +18,8 @@
 - ![SCSS](https://img.shields.io/badge/-SCSS-CC6699?style=flat&logo=sass&logoColor=white) **SCSS**: Расширение CSS, позволяющее использовать переменные, вложенность и другие полезные функции.
 - ![React Router](https://img.shields.io/badge/-React%20Router-CA4245?style=flat&logo=react-router&logoColor=white) **React Router**: Для управления маршрутизацией в приложении.
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> 51c502bb27cc31ab9bb7a846717ea4a3ebc1e0dd
