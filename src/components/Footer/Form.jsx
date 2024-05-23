@@ -1,14 +1,16 @@
 import "./form.scss";
 
-export const MainFooter = () => {
+export const MainFooterForm = () => {
     return (
         <form>
             <div className="form-group">
-                <input type="name" className="form-control1" id="" placeholder="Имя"/>
+                <input type="text" className="form-control1" id="" placeholder="Имя"/>
             </div>
             <div className="form-group" style={{marginTop: "22.44px"}}>
                 <input type="text" className="form-control2" id="" placeholder="Введите номер"/>
+                <button type="submit" className="btn btn-primary">Отправить</button>
             </div>
         </form>
+
     )
 }

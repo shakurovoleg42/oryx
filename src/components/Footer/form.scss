@@ -13,8 +13,8 @@
     font-size: 16.94px;
     font-weight: 400;
     line-height: 21.71px;
-    // text-align: left;
     margin-left: 20px;
+    padding-left: 19.84px;
 }
 
 .form-control2 {
@@ -30,5 +30,21 @@
     font-size: 16.94px;
     font-weight: 400;
     line-height: 21.71px;
-    text-align: left;
+    padding-left: 19.84px;
+    // text-align: left;
+}
+
+.btn-primary {
+    position:absolute;
+    background-color: #E65A57;
+    width: 115.3px;
+    height: 41.67px;
+    border-radius: 22px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16.31px;
+    font-weight: 400;
+    line-height: 25.87px;
+    text-align: center;
+    left: 73.4%;
 }

@@ -1,4 +1,4 @@
-import { MainFooter } from "./Form";
+import { MainFooterForm } from "./Form";
 import "./footer.scss";
 
 export const Footer = () => {
@@ -46,9 +46,10 @@ export const Footer = () => {
                 </div>
 
                 <div className="main_footer_wrapper">
-                    <MainFooter />
+                    <MainFooterForm />
                 </div>
             </div>
+
         </div>
     )
 }

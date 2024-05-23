@@ -32,11 +32,12 @@ export const CalcSection = () => {
                     <div className="price_calc_delivery_section">
                         <div className="select_country">
                             {/* страна */}
-                            <select className="select_country_select" name="" id="" placeholder="213123">
+                            <select className="select_country_select" name="" id="" defaultValue="">
                                 <option
                                     value=""
                                     disabled
-                                    selected style={{
+                                    hidden
+                                    style={{
                                         width: "164px",
                                         height: "35.98px",
                                         fontSize: "14.49px",
@@ -54,6 +55,7 @@ export const CalcSection = () => {
                                 <option value="Kazakhstan" style={{border: "none"}}>Казахстан</option>
                                 <option value="Uzbekistan" style={{border: "none"}}>Узбекистан</option>
                             </select>
+
                         </div>
                         <div>
                             {/* цифры  кг */}
