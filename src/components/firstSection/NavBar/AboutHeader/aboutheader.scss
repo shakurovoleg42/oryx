@@ -20,8 +20,13 @@
     text-align: right;
 }
 
+.link_sign-in {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .link_sign-up {
-    position: relative; /* Необходимо для правильного позиционирования псевдоэлемента */
+    position: relative;
     font-size: 15.38px;
     font-weight: 600;
     line-height: 16px;
@@ -34,8 +39,8 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: -2px; /* Отступ от текста до линии */
+    bottom: -2px;
     width: 100%;
-    height: 2px; /* Толщина линии */
-    background-color: #E65A57; /* Цвет линии */
+    height: 2px;
+    background-color: #E65A57;
 }

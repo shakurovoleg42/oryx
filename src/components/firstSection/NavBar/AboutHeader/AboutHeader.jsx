@@ -5,7 +5,7 @@ export const AboutHeader = () => {
 
     return (
         <div className="header-about-page">
-            <img className="logo-about-page" src="/src/assets/img/logo/main_logo.png" alt="logo-about-page" />
+            <img className="logo-about-page" src="/src/assets/img/logo/red_logo.png" alt="logo-about-page" />
             <div className="reg-menu">
                 <button className="Sign-In" style={{width: "125.31px", height: "48px", borderRadius: "30px"}}>
                     <img src="/src/assets/img/icons/lock.svg" style={{
@@ -14,7 +14,11 @@ export const AboutHeader = () => {
                         marginLeft: "20.92px",
                         color: "#FFFFFF",
                         }}/>
-                    <p className="p-Sign-In">Вход</p>
+                    <p className="p-Sign-In">
+                        <Link className="link_sign-in" to="#!" style={{}}>
+                            Вход
+                        </Link>
+                    </p>
                 </button>
                 <button className="Sign-Up">
                     <p className="p-Sign-Up">
