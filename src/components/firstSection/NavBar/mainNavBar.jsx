@@ -19,31 +19,31 @@ export const MainNavBar = () => {
                     className={activeItem === 0 ? 'active' : ''}
                     onClick={() => handleClick(0)}
                 >
-                    <Link to="#" className="link">О нас</Link>
+                    <Link to="#!" className="link">О нас</Link>
                 </li>
                 <li
                     className={activeItem === 1 ? 'active' : ''}
                     onClick={() => handleClick(1)}
                 >
-                    <Link to="#" className="link">Популярные магазины</Link>
+                    <Link to="/popular-shops" className="link">Популярные магазины</Link>
                 </li>
                 <li
                     className={activeItem === 2 ? 'active' : ''}
                     onClick={() => handleClick(2)}
                 >
-                    <Link to="#" className="link">Купи вместо меня</Link>
+                    <Link to="#!" className="link">Купи вместо меня</Link>
                 </li>
                 <li
                     className={activeItem === 3 ? 'active' : ''}
                     onClick={() => handleClick(3)}
                 >
-                    <Link to="#" className="link">Контакты</Link>
+                    <Link to="#!" className="link">Контакты</Link>
                 </li>
                 <li
                     className={activeItem === 4 ? 'active' : ''}
                     onClick={() => handleClick(4)}
                 >
-                    <Link to="#" className="link">Калькулятор</Link>
+                    <Link to="#!" className="link">Калькулятор</Link>
                 </li>
             </ul>
             <div className="reg-menu">

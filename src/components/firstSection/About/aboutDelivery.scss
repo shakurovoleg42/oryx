@@ -3,7 +3,7 @@ a {
 }
 
 .about {
-    width: 100%; /* Ширина равна ширине видимой области экрана */
+    width: 100%;
     display: flex;
     margin-top: 33px;
     background-image: url("../../../assets/img/background/airplane_hand_background.png");
@@ -62,8 +62,6 @@ a {
 .go-registration {
     width: 183px;
     height: 60.94px;
-    top: 540.44px;
-    left: 390px;
     background: #EB3738;
     border-radius: 30px;
     border: none;
@@ -74,9 +72,8 @@ a {
     font-size: 16px;
     font-weight: 600;
     line-height: 29px;
-    text-align: left;
     margin-right: 421px;
     margin-bottom: 105px;
-    text-align: center;
+    justify-content: center;
     text-decoration: none;
 }
