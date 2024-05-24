@@ -18,9 +18,31 @@ export const PopularShops = () => {
                     </p>
                 </div>
             </div>
-            <div>
-                
+            <div className='content_preview'>
+                <div className='popular_shops_preview' style={{ width: "1191px", height: "52px", marginTop: "16px", padding: "20px"}}>
+                    <div style={{ width: "100%", height: "48px", marginTop: "16px"}}>
+                        <p style={{ 
+                            fontFamily: "Montserrat", 
+                            fontSize: "36.25px", 
+                            fontWeight: "500", 
+                            lineHeight: "48px", 
+                            textAlign: "left",
+                            color: "#212529",
+                            margin: "0"    
+                        }}>
+                            Популярные магазины в США
+                        </p> 
+                    </div>
+                    <div style={{ width: "650px", height: "56px"}}>
+                        <p style={{ margin: "0", fontFamily: "Montserrat", fontWeight: "400", fontSize: "17px", color: "#666666"}}>Мы подготовили для вас список самых популярных магазинов одежды, которые диктуют тренды каждого сезона</p>
+                    </div>
+                </div>
             </div>
+
+            <div>
+
+            </div>
+
             <Footer/>
         </>
     )

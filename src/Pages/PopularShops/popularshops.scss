@@ -9,7 +9,11 @@
     display: flex;
     width: 1163px;
     height: 48px;
-    align-items: center;
-    background-color: #E9ECEF;
     text-align: left;
+}
+
+.content_preview {
+    display: flex;
+    justify-content: center;
+    height: 136px;
 }
