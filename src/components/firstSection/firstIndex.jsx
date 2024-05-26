@@ -1,6 +1,6 @@
 import { MainNavBar } from "./NavBar/mainNavBar";
 import { AboutDelivery } from "./About/AboutDelivery";
-import './firstIndex.scss';
+// import './firstIndex.scss';
 
 export const FirstIndex = () => {
     return (

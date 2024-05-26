@@ -12,7 +12,7 @@
     margin-right: 602px;
 }
 
-.p-Sign-In {
+.p-sign-in {
     margin-left: 10px;
     font-size: 15.88px;
     font-weight: 600;
@@ -20,12 +20,12 @@
     text-align: right;
 }
 
-.link_sign-in {
+.link-sign-in {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.link_sign-up {
+.link-sign-up {
     position: relative;
     font-size: 15.38px;
     font-weight: 600;
@@ -35,7 +35,7 @@
     text-decoration: none;
 }
 
-.link_sign-up::after {
+.link-sign-up::after {
     content: '';
     position: absolute;
     left: 0;

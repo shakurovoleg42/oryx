@@ -1,4 +1,4 @@
-.about_company {
+.about-company {
     display: flex;
     margin-top: 50px;
     width: 100%;
@@ -7,7 +7,7 @@
     justify-content: center;
     position: relative;
 }
-.title_section {
+.title-section {
     margin: 0;
     width: 397.96px;
     height: 65px;
@@ -23,7 +23,7 @@
     color: #000000;
 }
 
-.text_section {
+.text-section {
     width: 751px;
     height: 169px;
 }
@@ -41,7 +41,7 @@
     color: #000000;
 }
 
-.know_more {
+.know-more {
     margin: 0;
     width: 240px;
     height: 39px;
@@ -61,20 +61,20 @@
     justify-content: center;
 }
 
-.know_more .arrowtomore {
+.know-more .arrowtomore {
     height: 22px;
     border: 3px;
     margin-left: 24px;
 }
 
 @media (max-width: 1024px) {
-    .about_company {
+    .about-company {
         flex-direction: column;
         height: auto;
         padding: 50px 20px;
     }
 
-    .title_text_section {
+    .title-text-section {
         width: 100%;
         height: auto;
         text-align: center;
@@ -85,7 +85,7 @@
         line-height: 48px;
     }
 
-    .text_section {
+    .text-section {
         width: 100%;
         height: auto;
         margin-top: 30px;
@@ -96,7 +96,7 @@
         line-height: 26px;
     }
 
-    .know_more {
+    .know-more {
         margin-top: 20px;
     }
 }
@@ -113,14 +113,14 @@
         line-height: 22px;
     }
 
-    .know_more {
+    .know-more {
         width: 200px;
         height: 35px;
         font-size: 20px;
         line-height: 24px;
     }
 
-    .know_more .arrowtomore {
+    .know-more .arrowtomore {
         margin-left: 10px;
     }
 }
@@ -137,14 +137,14 @@
         line-height: 18px;
     }
 
-    .know_more {
+    .know-more {
         width: 180px;
         height: 30px;
         font-size: 18px;
         line-height: 22px;
     }
 
-    .know_more .arrowtomore {
+    .know-more .arrowtomore {
         margin-left: 8px;
     }
 }

@@ -18,8 +18,8 @@ export const PopularShops = () => {
                     </p>
                 </div>
             </div>
-            <div className='content_preview'>
-                <div className='popular_shops_preview' style={{ width: "1191px", height: "52px", marginTop: "16px", padding: "20px"}}>
+            <div className='content-preview'>
+                <div className='popular-shops-preview' style={{ width: "1191px", height: "52px", marginTop: "16px", padding: "20px"}}>
                     <div style={{ width: "100%", height: "48px", marginTop: "16px"}}>
                         <p style={{ 
                             fontFamily: "Montserrat", 

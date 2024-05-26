@@ -47,15 +47,15 @@ export const MainNavBar = () => {
                 </li>
             </ul>
             <div className="reg-menu">
-                <button className="Sign-In">
+                <button className="sign-in">
                     <MeetingRoomIcon style={{
                         color: "white",
                         marginLeft: "8px",
                         }}/>
-                    <p className="p-Sign-In">Вход</p>
+                    <p className="p-sign-in">Вход</p>
                 </button>
-                <button className="Sign-Up">
-                    <p className="p-Sign-Up">Регистрация</p>
+                <button className="sign-up">
+                    <p className="p-sign-up">Регистрация</p>
                 </button>
             </div>
         </div>
