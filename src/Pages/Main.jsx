@@ -1,7 +1,7 @@
-import { MainNavBar } from "../components/FirstSection/Navbar/MainNavBar.jsx";
-import { AboutDelivery } from "../components/FirstSection/Aboutfirst/AboutDelivery.jsx";
+import { MainNavBar } from "../components/firstSection/Navbar/MainNavBar.jsx";
+import { AboutDelivery } from "../components/firstSection/Aboutfirst/AboutDelivery.jsx";
 import { Order } from "../components/secondSection/Order/Order.jsx";
-import { Popular } from "../components/ThirdSection/Popular";
+import { Popular } from "../components/thirdSection/Popular.jsx";
 import { CalcSection } from "../components/CalcSection/CalcSection";
 import { Faq } from "../components/Faq/Faq";
 import { Pros } from "../components/Pros/Pros";
