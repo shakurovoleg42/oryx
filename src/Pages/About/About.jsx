@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { AboutHeader } from "../../components/FirstSection/Navbar/Aboutheader/AboutHeader";
+import { AboutHeader } from "../../components/firstSection/Navbar/Aboutheader/AboutHeader";
 import { Footer } from "../../components/Footer/Footer";
 import './aboutPage.scss'
 
