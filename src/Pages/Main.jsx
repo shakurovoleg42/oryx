@@ -1,4 +1,6 @@
-import { FirstIndex } from "../components/FirstSection/FirstIndex";
+// import { FirstIndex } from "../components/FirstSection/FirstIndex";
+import { MainNavBar } from "../components/FirstSection/NavBar/mainNavBar";
+import { AboutDelivery } from "../components/FirstSection/About/AboutDelivery";
 import { Order } from "../components/SecondSection/Order/Order";
 import { Popular } from "../components/ThirdSection/Popular";
 import { CalcSection } from "../components/CalcSection/CalcSection";
@@ -10,7 +12,8 @@ import { Footer } from "../components/Footer/Footer";
 export const Main = () => {
     return (
         <>
-            <FirstIndex />
+            <MainNavBar/>
+            <AboutDelivery/>
             <Order />
             <Popular />
             <CalcSection />
