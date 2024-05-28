@@ -17,3 +17,31 @@
     justify-content: center;
     height: 136px;
 }
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center;     /* Выравнивание по вертикали */
+    gap: 10px;               /* Расстояние между элементами (по желанию) */
+    flex-wrap: wrap;         /* Чтобы элементы переносились на новую строку, если не помещаются */
+}
+
+.category-items {
+    width: 152px;
+    height: 73px;
+    text-align: center;
+    padding: 5px;
+}
+
+.category-items p {
+    background-color: #EBEBEB;
+    margin: 0;
+    padding: 25px;
+    border-radius: 50px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 15.48px;
+    font-weight: 400;
+    line-height: 22.5px;
+}

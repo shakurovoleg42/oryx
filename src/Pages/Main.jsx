@@ -1,4 +1,4 @@
-import { FirstIndex } from "../components/firstSection/firstIndex";
+import { FirstIndex } from "../components/FirstSection/firstIndex";
 import { Order } from "../components/SecondSection/Order/Order";
 import { Popular } from "../components/ThirdSection/Popular";
 import { CalcSection } from "../components/CalcSection/CalcSection";

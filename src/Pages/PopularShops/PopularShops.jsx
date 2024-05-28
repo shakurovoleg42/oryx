@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { AboutHeader } from '../../components/firstSection/NavBar/AboutHeader/AboutHeader';
+import { AboutHeader } from '../../components/FirstSection/NavBar/AboutHeader/AboutHeader';
 import { Footer } from "../../components/Footer/Footer";
 import './popularshops.scss';
 
@@ -19,7 +19,7 @@ export const PopularShops = () => {
                 </div>
             </div>
             <div className='content-preview'>
-                <div className='popular-shops-preview' style={{ width: "1191px", height: "52px", marginTop: "16px", padding: "20px"}}>
+                <div className='popular-shops-preview' style={{ width: "1191px", height: "52px", marginTop: "16px"}}>
                     <div style={{ width: "100%", height: "48px", marginTop: "16px"}}>
                         <p style={{ 
                             fontFamily: "Montserrat", 
@@ -38,12 +38,41 @@ export const PopularShops = () => {
                     </div>
                 </div>
             </div>
-
-            <div>
-
+            <div className='category-container'>
+                <div className='categories'>
+                    {itemDataCategory.map((item, index) => (
+                    <div className='category-items' key={index}>
+                            <p>{item.title}</p>
+                    </div>
+                    ))}
+                </div>
             </div>
-
             <Footer/>
         </>
     )
 }
+
+
+const itemDataCategory = [
+    {
+        title: 'Одежда'
+    },
+    {
+        title: 'Обувь'
+    },
+    {
+        title: 'Акссесуары'
+    },
+    {
+        title: 'Сумки'
+    },
+    {
+        title: 'Техника'
+    },
+    {
+        title: 'Косметика'
+    },
+    {
+        title: 'Бижутерия'
+    }
+]
