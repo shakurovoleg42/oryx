@@ -1,6 +1,6 @@
 // import { FirstIndex } from "../components/FirstSection/FirstIndex";
-import { MainNavBar } from "../components/FirstSection/NavBar/MainNavBar";
-import { AboutDelivery } from "../components/FirstSection/AboutFirst/AboutDelivery";
+import { MainNavBar } from "../components/FirstSection/NavBar/MainNavBar.jsx";
+import { AboutDelivery } from "../components/FirstSection/AboutFirst/AboutDelivery.jsx";
 import { Order } from "../components/SecondSection/Order/Order";
 import { Popular } from "../components/ThirdSection/Popular";
 import { CalcSection } from "../components/CalcSection/CalcSection";
