@@ -1,5 +1,5 @@
 // import { FirstIndex } from "../components/FirstSection/FirstIndex";
-import { MainNavBar } from "../components/FirstSection/NavBar/mainNavBar";
+import { MainNavBar } from "../components/FirstSection/NavBar/MainNavBar";
 import { AboutDelivery } from "../components/FirstSection/About/AboutDelivery";
 import { Order } from "../components/SecondSection/Order/Order";
 import { Popular } from "../components/ThirdSection/Popular";
