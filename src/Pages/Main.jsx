@@ -1,4 +1,4 @@
-import  { MainNavBar } from "../components/FirstSection/NavBar/MainNavBar";
+import { MainNavBar } from "../components/FirstSection/NavBar/MainNavBar";
 import { AboutDelivery } from "../components/FirstSection/AboutFirst/AboutDelivery";
 import { Order } from "../components/SecondSection/Order/Order";
 import { Popular } from "../components/ThirdSection/Popular";
