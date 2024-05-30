@@ -1,12 +1,12 @@
-import { MainNavBar } from "../components/firstSection/Navbar/MainNavBar";
-import { AboutDelivery } from "../components/firstSection/Aboutfirst/AboutDelivery";
+import { MainNavBar } from "../components/firstSection/NavBar/mainNavBar";
+import { AboutDelivery } from "../components/firstSection/AboutFirst/AboutDelivery";
 import { Order } from "../components/order/Order";
-import { Popular } from "../components/thirdSection/Popular";
-import { CalcSection } from "../components/calcSection/CalcSection";
-import { Faq } from "../components/faq/Faq";
-import { Pros } from "../components/pros/Pros";
-import { About } from "../components/aboutCompany/About";
-import { Footer } from "../components/footer/Footer";
+import { Popular } from "../components/ThirdSection/Popular";
+import { CalcSection } from "../components/CalcSection/CalcSection";
+import { Faq } from "../components/Faq/Faq";
+import { Pros } from "../components/Pros/Pros";
+import { About } from "../components/AboutCompany/About";
+import { MainFooter } from "../components/Footer/MainFooter";
 
 export const Main = () => {
     return (
@@ -19,7 +19,7 @@ export const Main = () => {
             <Faq />
             <Pros />
             <About />
-            <Footer />
+            <MainFooter />
         </>
     )
 }

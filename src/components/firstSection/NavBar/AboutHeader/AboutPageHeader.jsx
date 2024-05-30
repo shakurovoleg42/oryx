@@ -1,7 +1,7 @@
 import "./aboutheader.scss";
 import { Link } from "react-router-dom";
 
-export const AboutHeader = () => {
+export const AboutPageHeader = () => {
 
     return (
         <div className="header-about-page">

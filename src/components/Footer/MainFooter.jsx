@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { MainFooterForm } from "./Form";
 import "./footer.scss";
 
-export const Footer = () => {
+export const MainFooter = () => {
 
     return (
         <div className="footer_section">

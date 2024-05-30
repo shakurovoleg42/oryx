@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import { AboutHeader } from "../../components/firstSection/Navbar/Aboutheader/AboutHeader";
-import { Footer } from "../../components/footer/Footer";
+import { AboutPageHeader } from "../../components/firstSection/NavBar/AboutHeader/AboutPageHeader";
+import { MainFooter } from "../../components/Footer/MainFooter";
 import './aboutPage.scss'
 
 export const About = () => {
     return (
         <>
-            <AboutHeader/>
+            <AboutPageHeader/>
             <div className="content">
                 <div className="navigation">
                     <p style={{textDecoration: "none", color: "#6C757D", fontFamily: "Inter"}}>
@@ -71,7 +71,7 @@ export const About = () => {
                     </div>
                 ))}
             </div>
-            <Footer/>
+            <MainFooter/>
         </>
     )
 }
