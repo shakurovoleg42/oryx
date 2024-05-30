@@ -6,10 +6,8 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
+  assetsInclude: ['assets/img/icons'],
   server: {
-    mimeTypes: {
-      'application/javascript': ['js', 'jsx']
-    }
+    // Не нужно указывать mimeTypes
   },
-  assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.svg'],
 });
