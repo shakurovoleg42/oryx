@@ -53,7 +53,7 @@ const contactsItemData = [
     },
     {
         title: "Email:",
-        text:  <Link to="email:ofis@orix.kz">ofis@orix.kz</Link>  
+        text:  <Link to="mailto:ofis@orix.kz">ofis@orix.kz</Link> 
     },
     {
         title: "whatsapp",
