@@ -20,7 +20,7 @@ export const MainNavBar = () => {
                     className={activeItem === 0 ? 'active' : ''}
                     onClick={() => handleClick(0)}
                 >
-                    <Link to="#!" className="link">О нас</Link>
+                    <Link to="/about" className="link">О нас</Link>
                 </li>
                 <li
                     className={activeItem === 1 ? 'active' : ''}
@@ -38,7 +38,7 @@ export const MainNavBar = () => {
                     className={activeItem === 3 ? 'active' : ''}
                     onClick={() => handleClick(3)}
                 >
-                    <Link to="#!" className="link">Контакты</Link>
+                    <Link to="/contacts" className="link">Контакты</Link>
                 </li>
                 <li
                     className={activeItem === 4 ? 'active' : ''}

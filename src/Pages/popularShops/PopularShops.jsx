@@ -33,7 +33,7 @@ export const PopularShops = () => {
                             Популярные магазины в США
                         </p> 
                     </div>
-                    <div style={{ width: "650px", height: "56px"}}>
+                    <div style={{ width: "480px", height: "56px"}}>
                         <p style={{ margin: "0", fontFamily: "Montserrat", fontWeight: "400", fontSize: "17px", color: "#666666"}}>Мы подготовили для вас список самых популярных магазинов одежды, которые диктуют тренды каждого сезона</p>
                     </div>
                 </div>
@@ -45,6 +45,16 @@ export const PopularShops = () => {
                             <p>{item.title}</p>
                     </div>
                     ))}
+                </div>
+            </div>
+            <div className='what-often-buy'>
+                <div className='what-often-buy-title'>
+                    <p style={{margin: "0",fontSize: "42px", fontFamily: "Mulish", fontWeight: "800", lineHeight: "52px", color: "#222222"}}>Что чаще всего покупают в США?</p>
+                </div>
+                <div className='what-often-buy-text'>
+                    <p style={{margin: "0",fontSize: "18.28px", fontFamily: "Montserrat", fontWeight: "400", lineHeight: "28px", color: "#666666"}}>
+                        Сейчас огромной популярностью пользуются интернет-магазины в США. В Америке можно купить все, что угодно от одежды, бытовой техники и даже автомобильных запчастей. На покупке оригинальных брендов Вы сэкономите 20-40% её офлайн стоимости, а на скидках можно сэкономить до 80-90%, учитывая доставку. Помимо экономии, интернет-шоппинг в США отличается огромным разнообразием ассортимента и эксклюзивных коллекций, которые редко найдёшь в нашей стране.
+                    </p>
                 </div>
             </div>
             <MainFooter/>

@@ -1,0 +1,28 @@
+.my-cabinet {
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+
+.my-cabinet:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-my-cabinet {
+    color: #000000;
+    // padding: 2px;
+    margin: 0;
+    // font-family: Gilroy;
+    font-weight: 600;
+    font-size: 18.25px;
+    line-height: 30.93px;
+}
+
+.link-my-cabinet {
+    text-decoration: none;
+    color: inherit;
+}

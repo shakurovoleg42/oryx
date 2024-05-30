@@ -4,6 +4,7 @@ import { Main } from './Pages/Main';
 import { About } from './Pages/about/About'; 
 import { PopularShops } from './Pages/popularShops/PopularShops';
 import { ScrollToTop } from './components/functions/ScrollToTop';
+import { Contacts } from './Pages/contacts/Contacts';
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
         <Route path="/" element={<Main />} />
         <Route path="/about" element={<About />} />
         <Route path="/popular-shops" element={<PopularShops />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </Router>
   );
