@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { AboutHeader } from '../../components/firstSection/Navbar/Aboutheader/AboutHeader';
-import { Footer } from '../../components/Footer/Footer';
+import { Footer } from '../../components/footer/Footer';
 import './popularshops.scss';
 
 export const PopularShops = () => {

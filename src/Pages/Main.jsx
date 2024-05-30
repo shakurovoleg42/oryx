@@ -1,12 +1,12 @@
-import { MainNavBar } from "../components/firstSection/Navbar/MainNavBar.jsx";
-import { AboutDelivery } from "../components/firstSection/Aboutfirst/AboutDelivery.jsx";
-import { Order } from "../components/secondSection/Order/Order.jsx";
-import { Popular } from "../components/thirdSection/Popular.jsx";
-import { CalcSection } from "../components/CalcSection/CalcSection";
-import { Faq } from "../components/Faq/Faq";
-import { Pros } from "../components/Pros/Pros";
-import { About } from "../components/AboutCompany/About";
-import { Footer } from "../components/Footer/Footer";
+import { MainNavBar } from "../components/firstSection/Navbar/MainNavBar";
+import { AboutDelivery } from "../components/firstSection/Aboutfirst/AboutDelivery";
+import { Order } from "../components/order/Order";
+import { Popular } from "../components/thirdSection/Popular";
+import { CalcSection } from "../components/calcSection/CalcSection";
+import { Faq } from "../components/faq/Faq";
+import { Pros } from "../components/pros/Pros";
+import { About } from "../components/aboutCompany/About";
+import { Footer } from "../components/footer/Footer";
 
 export const Main = () => {
     return (
