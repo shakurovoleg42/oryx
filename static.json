@@ -1,8 +1,10 @@
 {
-    "headers": {
-      "/**/*.js": {
-        "Content-Type": "application/javascript"
-      }
+  "headers": {
+    "/**/*.js": {
+      "Content-Type": "application/javascript"
+    },
+    "/**/*.css": {
+      "Content-Type": "text/css"
     }
   }
-  
+}
