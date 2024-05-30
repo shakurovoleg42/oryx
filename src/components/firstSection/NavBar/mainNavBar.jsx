@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./mainNavBar.scss";
 import MeetingRoomIcon from '@mui/icons-material/MeetingRoom';
+import main_logo from "/src/assets/img/logo/main_logo.png"
 import { Link } from "react-router-dom";
 
 export const MainNavBar = () => {
@@ -13,7 +14,7 @@ export const MainNavBar = () => {
 
     return (
         <div className="header">
-            <img className="logo" src="/src/assets/img/logo/main_logo.png" alt="logo" />
+            <img className="logo" src={main_logo} alt="logo" />
             <ul className="menu">
                 <li
                     className={activeItem === 0 ? 'active' : ''}

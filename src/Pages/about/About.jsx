@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 import { AboutPageHeader } from "../../components/firstSection/NavBar/AboutHeader/AboutPageHeader";
 import { MainFooter } from "../../components/Footer/MainFooter";
+import about from "/src/assets/img/images/about.jpg"
+import sklad1 from "/src/assets/img/images/sklad1.png";
+import sklad2 from "/src/assets/img/images/sklad2.png";
+import sklad3 from "/src/assets/img/images/sklad3.png";
+import sklad4 from "/src/assets/img/images/sklad4.png";
+
 import './aboutPage.scss'
 
 export const About = () => {
@@ -25,7 +31,7 @@ export const About = () => {
                                 height: "490px",
                             }}
                     >
-                        <img src="/src/assets/img/images/about.jpg" alt="about-img"/>
+                        <img src={about} alt="about-img"/>
                     </div>
                     <div style={{width: "500px", height: "356px", marginLeft: "65px"}}>
                         <div className="title_about_oryx" style={{width: "369px", height: "52px"}}>
@@ -78,15 +84,15 @@ export const About = () => {
 
 const skladInfo = [
     {
-        img: "/src/assets/img/images/sklad1.png",
-        img2: "/src/assets/img/images/sklad2.png",
+        img:sklad1,
+        img2: sklad2,
         description: "Независимо от магазина, количества товаров и веса, входящие посылки принимаются на нашем складе бесплатно.",
         description2: "Мы бесплатно объединим любое количество входящих посылок из одного или нескольких магазинов в одну общую посылку для вашей экономии на доставке (по сравнению с прямой отправкой из магазинов экономия может составлять до 80%).",
 
     },
     {
-        img: "/src/assets/img/images/sklad1.png",
-        img2: "/src/assets/img/images/sklad2.png",
+        img: sklad3,
+        img2: sklad4,
         description: "Качественная упаковка, подходящая для международных отправлений всех Ваших покупок, и их переупаковка для уменьшения веса отправления. Стоимость упаковки зависит от размера посылки и формы товаров и составляет от 3 до 8$.",
         description2: "Хранение всех Ваших покупок осуществляется абсолютно бесплатно до 14 дней",
     }

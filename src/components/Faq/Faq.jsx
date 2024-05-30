@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import { Accordion } from 'rsuite';
-import './faq.scss';
 import { Link } from 'react-router-dom';
+import callIcon from "/src/assets/img/elements/call.svg.png"
+import './faq.scss';
+
+
 
 export const Faq = () => {
     const [activeKey, setActiveKey] = useState(null);
@@ -19,7 +22,7 @@ export const Faq = () => {
         <div className="faq_section">
             <div className="faq_title">Часто задаваемые вопросы</div>
             <Link to="https://t.me/Sellkon" className="whatsapp_icon">
-                <img src="/src/assets/img/elements/call.svg.png" alt="WhatsApp Icon" />
+                <img src={callIcon} alt="WhatsApp Icon" />
             </Link>
             <Accordion
                 activeKey={activeKey}

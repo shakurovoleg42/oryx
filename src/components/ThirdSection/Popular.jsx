@@ -1,6 +1,13 @@
 // import { useState } from "react";
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import hilfiger from '/src/assets/img/slider-icons/hilfiger.png'
+import adidas from '/src/assets/img/slider-icons/adidas.png'
+import nike from '/src/assets/img/slider-icons/nike.png'
+import calvin_clain from '/src/assets/img/slider-icons/calvin_clain.png'
+import hnm from '/src/assets/img/slider-icons/hnm.png'
+import victorias_secret from '/src/assets/img/slider-icons/victorias_secret.png'
+
 import "./popular.scss";
 import { Link } from 'react-router-dom';
 
@@ -69,42 +76,42 @@ export const Popular = () => {
 
 const itemData = [
     {
-        img: '/src/assets/img/slider-icons/hilfiger.png',
+        img: hilfiger,
         width: "168px",
         height: "168px",
         ml: "32px",
         mr: "40px"
     },
     {
-        img: '/src/assets/img/slider-icons/adidas.png',
+        img: adidas,
         width: "168px",
         height: "113.78px",
         ml: "0px",
         mr: "39px"
     },
     {
-        img: '/src/assets/img/slider-icons/nike.png',
+        img: nike,
         width: "169px",
         height: "115px",
         ml: "0px",
         mr: "40px"
     },
     {
-        img: '/src/assets/img/slider-icons/calvin_clain.png',
+        img: calvin_clain,
         width: "168px",
         height: "168px",
         ml: "0px",
         mr: "6px"
     },
     {
-        img: '/src/assets/img/slider-icons/hnm.png',
+        img: hnm,
         width: "236px",
         height: "133px",
         ml: "0px",
         mr: "6px"
     },
     {
-        img: '/src/assets/img/slider-icons/victorias_secret.png',
+        img: victorias_secret,
         width: "168px",
         height: "168px",
         ml: "6px",

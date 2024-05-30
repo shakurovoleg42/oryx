@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import big_car from "/src/assets/img/images/big_car.png";
+import arrowtomore from "/src/assets/img/elements/arrowtomore.png";
 import "./about.scss";
 
 export const About = () => {
@@ -18,11 +20,11 @@ export const About = () => {
                     <Link to="/about">
                         <button className="know-more">
                             Узнать больше
-                            <img className="arrowtomore" src="/src/assets/img/elements/arrowtomore.png" alt="arrowtomore"/>
+                            <img className="arrowtomore" src={arrowtomore} alt="arrowtomore"/>
                         </button>
                     </Link>
             </div>
-                <img className="big-car" src="/src/assets/img/images/big_car.png" alt="big_car" style={{width: "445px", height: "325px"}}/>
+                <img className="big-car" src={big_car} alt="big_car" style={{width: "445px", height: "325px"}}/>
         </div>
     )
 }

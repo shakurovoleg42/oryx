@@ -1,14 +1,16 @@
-import "./aboutheader.scss";
+import redLogo from "/src/assets/img/logo/red_logo.png";
+import lock from "/src/assets/img/icons/lock.svg"
 import { Link } from "react-router-dom";
+import "./aboutheader.scss";
 
 export const AboutPageHeader = () => {
 
     return (
         <div className="header-about-page">
-            <img className="logo-about-page" src="/src/assets/img/logo/red_logo.png" alt="logo-about-page" />
+            <img className="logo-about-page" src={redLogo} alt="logo-about-page" />
             <div className="reg-menu">
                 <button className="sign-in" style={{width: "125.31px", height: "48px", borderRadius: "30px"}}>
-                    <img src="/src/assets/img/icons/lock.svg" style={{
+                    <img src={lock} style={{
                         width: "15.21px",
                         height: "21.85px",
                         marginLeft: "20.92px",

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import airplane from "/src/assets/img/images/airplane.png"
 import "./aboutDelivery.scss";
 
 export const AboutDelivery = () => {
@@ -14,7 +15,7 @@ export const AboutDelivery = () => {
                     <button className="go-registration">Зарегистрируйтесь!</button>
                 </Link>
             </div>
-            <img src="/src/assets/img/images/airplane.png" alt="airplane"/>
+            <img src={airplane} alt="airplane"/>
         </div>
     )
 }

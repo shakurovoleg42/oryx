@@ -1,4 +1,8 @@
-import { fontSize, fontWeight, lineHeight } from '@mui/system';
+import economy from '/src/assets/img/icons/economy.png'
+import nadejno from '/src/assets/img/icons/nadejno.png'
+import fast from '/src/assets/img/icons/fast.png'
+import simple from '/src/assets/img/icons/simple.png'
+
 import './pros.scss';
 
 export const Pros = () => {
@@ -23,31 +27,31 @@ export const Pros = () => {
 
 const itemDataPros = [
     {
-        img:'/src/assets/img/icons/economy.png',
+        img: economy,
         title:'Экономно',
         text:'Наши клиенты не платят налог с продаж',
-        w: '55px',
-        h: '63.77px',
+        w:'55px',
+        h:'63.77px',
     },
     {
-        img: '/src/assets/img/icons/nadejno.png',
+        img: nadejno,
         title:'Надежно',
         text:'Гарантируем сохранность товаров',
-        w: '61.32px',
-        h: '63.77px',
+        w:'61.32px',
+        h:'63.77px',
     },
     {
-        img:'/src/assets/img/icons/fast.png',
+        img: fast,
         title:'Быстро',
         text:'Из США в Казахстан от 7 дней',
-        w: '68.87px',
-        h: '63.77px',
+        w:'68.87px',
+        h:'63.77px',
     },
     {
-        img:'/src/assets/img/icons/simple.png',
+        img:simple,
         title:'Просто',
         text:'Покупка в США в 3 простых шага',
-        w: '68.87px',
-        h: '63.77px',
+        w:'68.87px',
+        h:'63.77px',
     }
 ]

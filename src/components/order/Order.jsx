@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import goRegistration from "/src/assets/img/icons/registration.png";
+import goBuy from "/src/assets/img/icons/go_buy.png";
+import goGet from "/src/assets/img/icons/get.png";
 import "./order.scss"
 
 export const Order = () => {
@@ -10,7 +13,7 @@ export const Order = () => {
           <div className="clue">
             <div className="clue-item">
               <img
-                src="/src/assets/img/icons/registration.png"
+                src= {goRegistration}
                 alt="icon"
                 className="clue-item-img"
               />
@@ -21,7 +24,7 @@ export const Order = () => {
             </div>
             <div className="clue-item" style={{marginLeft: "178px", marginRight: "177px"}}>
               <img
-                src="/src/assets/img/icons/go_buy.png"
+                src={goBuy}
                 alt="icon"
                 className="clue-item-img"
               />
@@ -32,7 +35,7 @@ export const Order = () => {
             </div>
             <div className="clue-item">
               <img
-                src="/src/assets/img/icons/get.png"
+                src={goGet}
                 alt="icon"
                 className="clue-item-img"
               />
