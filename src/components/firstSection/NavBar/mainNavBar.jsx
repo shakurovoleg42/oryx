@@ -32,7 +32,7 @@ export const MainNavBar = () => {
                     className={activeItem === 2 ? 'active' : ''}
                     onClick={() => handleClick(2)}
                 >
-                    <Link to="#!" className="link">Купи вместо меня</Link>
+                    <Link to="/buy-for-me" className="link">Купи вместо меня</Link>
                 </li>
                 <li
                     className={activeItem === 3 ? 'active' : ''}

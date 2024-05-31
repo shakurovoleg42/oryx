@@ -5,6 +5,7 @@ import { About } from './Pages/about/About';
 import { PopularShops } from './Pages/popularShops/PopularShops';
 import { ScrollToTop } from './components/functions/ScrollToTop';
 import { Contacts } from './Pages/contacts/Contacts';
+import { BuyForMe } from './Pages/buyForMe/BuyForMe';
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/popular-shops" element={<PopularShops />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/buy-for-me" element={<BuyForMe />} />
       </Routes>
     </Router>
   );
