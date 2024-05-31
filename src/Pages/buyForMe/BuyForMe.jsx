@@ -8,6 +8,7 @@ import arrow_right from "../../assets/img/icons/arrow_right.svg";
 import './buyForMe.scss';
 
 export const BuyForMe = () => {
+
     const steps = [
         {
             imgSrc: link_icon,
@@ -36,21 +37,34 @@ export const BuyForMe = () => {
                     </p>
                 </div>
             </div>
-            <div>
-                <p>ORYX осуществит покупку вместо Вас</p>
+            <div className="info-container">
+                <p className="info-text">ORYX осуществит покупку вместо Вас</p>
             </div>
             <div className="steps-container">
                 {steps.map((step, index) => (
                     <div key={index} className="step">
-                        <div className="step-content">
-                            <div className="step-icon">
-                                <img src={step.imgSrc} alt={`Step ${index + 1}`} />
+                        <div className="step-content" draggable="false">
+                            <div className="step-icon" >
+                                <img src={step.imgSrc} alt={`Step ${index + 1}`} draggable="false"/>
                             </div>
                             <p className="step-text">{step.text}</p>
                         </div>
-                        {index < steps.length - 1 && <img src={arrow_right} className="arrow" alt="arrow" />}
+                        {index < steps.length - 1 && <img style={{pointerEvents: "none"}} src={arrow_right} className="arrow" alt="arrow" draggable="false"/>}
                     </div>
                 ))}
+            </div>
+            <div className='package-name'>
+                <div className='forms'>
+                    <div>
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <input type="text" />
+                    </div>
+                </div>
             </div>
         </>
     );
